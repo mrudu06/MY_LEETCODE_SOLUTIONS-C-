@@ -25,7 +25,7 @@ void main()
         scanf("%d", &nums_ptr[nums_idx]);
     }
     int unique_nums_count = remove_duplicates(nums_ptr, size);
-    printf("The number of distinct elements in the array is: %d\n", unique_nums_count);
+    printf("The number of distinct elements in the array is as shown: %d\n", unique_nums_count);
 
     free(nums_ptr);
 }
