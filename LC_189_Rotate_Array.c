@@ -13,7 +13,9 @@ THen using a for loop the usual swap logic is used .
 */
 void reverse_array_for_rotate(int *nums,int size)
 {
+ //initializing the variable to acccess the last element.
     int last = size-1;
+ //for loop to rotate the elements using the swap logic.
     for (int frwd_index = 0; frwd_index < size/2; frwd_index++)
     {
         int tmp;
@@ -32,9 +34,9 @@ also this ensures the time limit is not exceeded.
 */
 void rotate(int* nums, int numsSize, int k) 
 {
-
+//Here is the array size is less than 1 then defaultly the program terminates.
     if (numsSize <= 1 || k == 0) return;
-
+//This one here is actually used to find the least no.of times to rotate the array .
     k = k % numsSize;
     reverse_array_for_rotate(nums,numsSize);
     reverse_array_for_rotate(nums,k);
