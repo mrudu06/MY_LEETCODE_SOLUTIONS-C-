@@ -5,6 +5,7 @@
 
 int* zero_removal(int* nums, int nums_Size);
 
+
 void main()
 {
     int* nums_ptr;
