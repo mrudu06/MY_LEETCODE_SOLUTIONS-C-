@@ -1,4 +1,4 @@
-/*The array nums is given . WE are starting from the first index and each element represents the number of jumps that can be done . 
+ /*The array nums is given . WE are starting from the first index and each element represents the number of jumps that can be done . 
 The task is to find if it is possible to reach the end of the array (i.e) the last element .
 If we are able to reach the end of the array the result should be true otherwise false .*/
 
