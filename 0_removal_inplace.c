@@ -51,5 +51,5 @@ int * zero_removal(int* nums, int nums_Size)
 
     
    return nums;
-
+ 
 }
