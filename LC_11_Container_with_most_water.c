@@ -1,4 +1,4 @@
-int maxArea(int* height, int heightSize) 
+ int maxArea(int* height, int heightSize) 
 {
     int left = 0;
     int right = heightSize - 1;
